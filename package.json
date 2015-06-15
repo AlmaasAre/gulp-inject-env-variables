@@ -1,0 +1,23 @@
+{
+  "name": "gulp-inject-env-variables",
+  "version": "0.0.1",
+  "description": "Used to inject env variables in code",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlmaasAre/gulp-inject-env-variables.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlmaasAre/gulp-inject-env-variables/issues"
+  },
+  "homepage": "https://github.com/AlmaasAre/gulp-inject-env-variables",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "gulp-replace-task": "^0.2.1"
+  }
+}

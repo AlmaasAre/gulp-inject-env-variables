@@ -1,0 +1,25 @@
+{
+  "name": "gulp-inject-env-variables",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/AlmaasAre/gulp-inject-env-variables",
+  "authors": [
+    "Are Almaas <mralmaas@gmail.com>"
+  ],
+  "description": "Used to inject env variables in code",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "inject",
+    "gulp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
