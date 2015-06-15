@@ -23,7 +23,7 @@ app.boot(config);
 var injectEnvVariables = require('gulp-inject-env-variables');
 var environmentVariables = {environment: 'production', googleTrackingCode:'1ijh1ihu3ih109u0'}
 
-gulp.src('**/*.{js|html|scss...}
+gulp.src('**/*.{js|html|scss...}')
     .pipe(injectEnvVariables(environmentVariables))
     .pipe(gulp.dest('/'));
 
